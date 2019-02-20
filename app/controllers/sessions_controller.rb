@@ -7,8 +7,5 @@ class SessionsController < ApplicationController
     @user = user
     session[:user_id] = @user.id
   end
-  
-  def show 
-  end
-  
+
 end
